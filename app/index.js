@@ -5,3 +5,7 @@ const numbersToAdd = [
 
 const result = calc.sum(numbersToAdd);
 console.log(`The result is: ${result}`);
+
+const _ = require('lodash');
+
+_.assign({'a':1}, {'b':2}, {'c':3});
