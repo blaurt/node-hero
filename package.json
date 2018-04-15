@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/blaurt/node-hero/issues"
   },
-  "homepage": "https://github.com/blaurt/node-hero#readme"
+  "homepage": "https://github.com/blaurt/node-hero#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

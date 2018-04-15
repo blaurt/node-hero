@@ -1,7 +1,15 @@
-const calc = require('./calc');
-const numbersToAdd = [
-    3, 4, 10, 2
-];
+const express = require('express');
+const app = express();
+const port = 3000;
 
-const result = calc.sum(numbersToAdd);
-console.log(`The result is: ${result}`);
+app.get('/', (request, response) => {
+    response.send('Hello from Express!');
+});
+v
+app.listen(port, (err) => {
+    if (err) {
+        return console.log('something bad happened', err);
+    }
+
+    console.log(`server is listening on ${port}`);
+});
